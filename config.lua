@@ -6,7 +6,7 @@ Config.PoliceCallChance = 15
 -- Shop Config
 Config.Products = {
     [1] = {
-        name = "weed_white-widow",
+        name = "weed_zero-haze",
         price = 15,
         amount = 150,
         info = {},
@@ -15,84 +15,12 @@ Config.Products = {
         minrep = 0,
     },
     [2] = {
-        name = "weed_skunk",
+        name = "weed_zero-haze_seed",
         price = 15,
         amount = 150,
         info = {},
         type = "item",
         slot = 2,
-        minrep = 20,
-    },
-    [3] = {
-        name = "weed_purple-haze",
-        price = 15,
-        amount = 150,
-        info = {},
-        type = "item",
-        slot = 3,
-        minrep = 40,
-    },
-    [4] = {
-        name = "weed_og-kush",
-        price = 15,
-        amount = 150,
-        info = {},
-        type = "item",
-        slot = 4,
-        minrep = 60,
-    },
-    [5] = {
-        name = "weed_amnesia",
-        price = 15,
-        amount = 150,
-        info = {},
-        type = "item",
-        slot = 5,
-        minrep = 80,
-    },
-    [6] = {
-        name = "weed_white-widow_seed",
-        price = 15,
-        amount = 150,
-        info = {},
-        type = "item",
-        slot = 6,
-        minrep = 100,
-    },
-    [7] = {
-        name = "weed_skunk_seed",
-        price = 15,
-        amount = 150,
-        info = {},
-        type = "item",
-        slot = 7,
-        minrep = 120,
-    },
-    [8] = {
-        name = "weed_purple-haze_seed",
-        price = 15,
-        amount = 150,
-        info = {},
-        type = "item",
-        slot = 8,
-        minrep = 140,
-    },
-    [9] = {
-        name = "weed_og-kush_seed",
-        price = 15,
-        amount = 150,
-        info = {},
-        type = "item",
-        slot = 9,
-        minrep = 160,
-    },
-    [10] = {
-        name = "weed_amnesia_seed",
-        price = 15,
-        amount = 150,
-        info = {},
-        type = "item",
-        slot = 10,
         minrep = 180,
     },
 }
@@ -104,53 +32,33 @@ Config.RobberyChance = 25
 Config.MinimumDrugSalePolice = 0
 
 Config.CornerSellingDrugsList = {
-    "weed_white-widow",
-    "weed_skunk",
-    "weed_purple-haze",
-    "weed_og-kush",
-    "weed_amnesia",
-    "weed_ak47",
+    "weed_zero-haze",
     "crack_baggy",
     "cokebaggy",
+    "oxy",
     "meth"
 }
 
 Config.DrugsPrice = {
-    ["weed_white-widow"] = {
-        min = 15,
-        max = 24,
-    },
-    ["weed_og-kush"] = {
-        min = 15,
-        max = 28,
-    },
-    ["weed_skunk"] = {
-        min = 15,
-        max = 31,
-    },
-    ["weed_amnesia"] = {
-        min = 18,
-        max = 34,
-    },
-    ["weed_purple-haze"] = {
-        min = 18,
-        max = 37,
-    },
-    ["weed_ak47"] = {
-        min = 18,
+    ["weed_zero-haze"] = {
+        min = 30,
         max = 40,
     },
     ["crack_baggy"] = {
-        min = 18,
-        max = 34,
+        min = 30,
+        max = 40,
     },
     ["cokebaggy"] = {
-        min = 18,
-        max = 37,
+        min = 30,
+        max = 50,
     },
     ["meth"] = {
-        min = 18,
-        max = 40,
+        min = 40,
+        max = 50,
+    },
+    ["oxy"] = {
+        min = 40,
+        max = 50,
     },
 }
 
